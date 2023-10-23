@@ -77,7 +77,8 @@ color: #434455;
 
 .page-header {
     padding-top: 24px;
-    padding-bottom: 24px;    
+    padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc;    
 }
 .header-container {
     display: flex;
@@ -108,9 +109,14 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4D5AE5;
+margin-right: 76px;
 }
 .accent {
     color: #2E2F42
+}
+.menu-item {
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .menu-link {
 font-size: 16px;
@@ -144,6 +150,8 @@ color: #2E2F42;
 .hero {
     background-color: #2E2F42;
     height: 600px;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }   
 .main-title {
 font-size: 56px;
@@ -153,7 +161,7 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #FFFFFF;
 padding-top: 200px;
-width: 496px;
+max-width: 496px;
 margin-bottom: 48px;
 margin-right: auto;
 margin-left: auto;
@@ -168,7 +176,8 @@ margin-left: auto;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     padding: 16px 32px;
-    border: 4px;
+    min-width: 169px;
+    border-radius: 4px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 188px;
