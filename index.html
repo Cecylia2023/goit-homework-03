@@ -13,7 +13,7 @@
 <body>
     <!-- page header -->
     <header class="page-header">
-        <div class="container">
+        <div class="container header-container">
         <nav class="page-navigation">
             <a class="logotype link" href="./index.html">Web<span class="accent">Studio</span></a>
             <ul class="menu list">
@@ -26,7 +26,7 @@
                 <li class="menu-item">
                     <a class="menu-link link" href="">Contacts</a>
                 </li>
-            </ul> 
+            </ul>
         </nav>
         <address class="contact">
             <ul class="contact-list list">
@@ -34,25 +34,27 @@
                     <a class="contact-list-link link"  href="mailto:info@devstudio.com">info@devstudio.com</a>   
                 </li>
                 <li class="contact-list-item"><a class="contact-list-link link"  href="tel:+110001111111">+11 (000) 111-11-11</a>
-                </li>   
+                </li>  
             </ul>
         </address>
     </div>
     </header>
     <main >
         <!-- Hero section-->
-        <section class="hero">            
-        <h1 class="main-title">Effective Solutions
-            for Your Business
+        <section class="hero">
+            <div class="container">
+
+        <h1 class="main-title">Effective Solutions for Your Business
         </h1>
-        <button class="order-service-btn" type="button">Order Service</button> 
+        <button class="order-service-btn" type="button">Order Service</button>
+            </div> 
         </section>
 
         <!-- our benefits -->
         <section class="benefits">
+            <div class="container">
              <h2 class="visually-hidden">Benefits</h2>
             <ul class="benefits-list list">
-                <div class="container">
                 <li class="benefits-list-item">
                     <h3 class="benefits-list-title list-title">Strategy</h3>
                     <p class="benefits-list-text list-text ">Our goal is to identify the business
@@ -70,46 +72,54 @@
                     <h3 class="benefits-list-title list-title">Technologies</h3>
                     <p class="benefits-list-text list-text">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
                 </li>
-            </div>
             </ul>
-        
+        </div>        
         </section>
         <!-- our team -->
         <section class="our-team">
+            <div class="container">
             <h2 class="section-title">Our Team</h2>
             <ul class="our-team-list list">
-                <div class="container">
-                <li class="our-team-list-item"> 
+                <li class="our-team-list-item">
+                    <div class="thumb">
                     <img class="our-team-list-img" src="./images/img1.jpg" alt="Mark,the Product Designer" width="264"
-                    height="260" > 
+                    height="260" >
+                    </div>  
                     <h3 class="our-team-list-title list-title">Mark Guerrero </h3>
                     <p class="our-team-list-text list-text">Product Designer </p>
                 </li>
                 <li class="our-team-list-item">
+                    <div class="thumb">
                     <img class="our-team-list-img" src="./images/img2.jpg" alt="Tom, the Frontend Developer" width="264"
                     height="260" >
+                    </div>
                     <h3 class="our-team-list-title list-title">Tom Ford</h3>
                     <p class="our-team-list-text list-text">Frontend Developer </p>
                 </li>
                 <li class="our-team-list-item">
+                    <div class="thumb">
                     <img class="our-team-list-img" src="./images/img3.jpg" alt="Camila, the Marketing" width="264"
                     height="260"  >
+                </div>
                     <h3 class="our-team-list-title list-title">Camila Garcia</h3> 
                     <p class="our-team-list-text list-text">Marketing</p>
                 </li>
                 <li class="our-team-list-item">
+                    <div class="thumb">
                     <img class="our-team-list-img" src="./images/img4.jpg" alt="Daniel, the UI Designer" width="264"
                     height="260" >
+                </div>
                     <h3 class="our-team-list-title list-title">Daniel Wilson</h3> 
                     <p class="our-team-list-text list-text">UI Designer</p>
                 </li>
-            </div>
-            </ul>       
+            </ul>
+        </div>       
         </section>
 
         <!-- portfolio -->
 
-        <section class="portfolio" id="portfolio">            
+        <section class="portfolio" id="portfolio">
+            <div class="container">           
             <h2 class="section-title">Our Portfolio</h2>
             <ul class="portfolio-list list">
                 <div class="container container-portfolio">
@@ -154,13 +164,15 @@
         </div>
         </section>
     </main> 
-    <footer class="page-footer">   
+    <footer class="page-footer"> 
+        <div class="container">
         <a class="logotype link" href="./index.html">Web<span class="accent">Studio</span></a>
         <p class="page-footer-text">   
         Increase the flow of customers and <br>
         sales for your business with digital <br>
          marketing & growth solutions.
         </p>
+    </div>
     </footer>
 </body>
 </html>
